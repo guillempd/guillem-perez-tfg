@@ -2,7 +2,7 @@ import tweepy
 
 with open('keys_and_tokens.txt') as file:
     # Application dependant
-    consumer_key = file.readline().rstrip() # to remove \n
+    consumer_key = file.readline().rstrip() # rstrip removes \n from the string
     consumer_secret = file.readline().rstrip()
 
     # Identified user
