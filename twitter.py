@@ -20,13 +20,14 @@ def get_api(keys_and_tokens_filename='guillem_keys_and_tokens.txt'):
                      retry_errors={401, 404, 500, 503},
                      wait_on_rate_limit=True,
                      wait_on_rate_limit_notify=True)
+    print('Succesfully connected to Twitter API.')
     return api
 
 
 def main():
     api = get_api('guillem_keys_and_tokens.txt')
     tweets = api.home_timeline()
-    print('============================ @', api.me().screen_name, "'s timeline ============================" , sep='')
+    print('============================ @', api.me().screen_name, "'s timeline ============================", sep='')
     print()
     for tweet in tweets:
         print('@', tweet.user.screen_name, ': ', tweet.text, sep='')

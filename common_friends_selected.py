@@ -6,16 +6,16 @@ def common_friends(user_id_a, user_id_b, api):
     friends_a = set(api.friends_ids(user_id=user_id_a))
     friends_b = set(api.friends_ids(user_id=user_id_b))
     friends_in_common = friends_a.intersection(friends_b)
-    all_friends = friends_a.union(friends_b)
-    return len(friends_in_common)/len(all_friends)
+    # all_friends = friends_a.union(friends_b)
+    return len(friends_in_common)  # /len(all_friends)
 
 
 def main():
     api = twitter.get_api()
-    random_users = list(pymongo.MongoClient().firstexperiment.randomusers.find({}))
+    random_users = list(pymongo.MongoClient().secondexperiment.randomusers.find())
     results = []
     size = 0
-    i = 600
+    i = 10
     while size < 10:
         i += 1
         random_user_id = random_users[i]['id']
@@ -30,7 +30,7 @@ def main():
         print(result)
         results.append({'common': result})
         size += 1
-    pymongo.MongoClient().firstexperiment.selectedresults.insert(results)
+    pymongo.MongoClient().secondexperiment.selectedresults.insert(results)
 
 
 if __name__ == '__main__':

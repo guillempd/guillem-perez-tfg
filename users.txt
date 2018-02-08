@@ -1,0 +1,43 @@
+# ML/AI (56 + 4) (TOP1/3_thres >= 19) (TOP10_thres >= 39) (TOP5_thres >= 40) (TOP3_thres >= 44) (100K) (celebrity > 1e6)
+users = ['ylecun', 'Cheeku51', 'jameshensman', 'dksamuylov', 'DataScienceCtrl', 'ru8anraj', 'TensorFlow', 'piezzoritro', 'MartinArens', 'data_insights_','MlFellow', 'ManjeetRege', 'KatherineMejia', 'machinelearnbot', 'dustinvtran', 'drjerrynyc', 'OriolVinyalsML', 'JesperDramsch', 'goodfellow_ian', 'percepteam', 'DeepMindAI', 'le_roux_nicolas', 'JeffDean', 'christofernal', 'johnplattml', 'EthanGoan', 'mxlearn', 'TheScharks', 'NipsConference', 'leslyarun', 'rasbt', 'RogueEngineer','notmisha', 'ha_san_ali', 'chrisalbon', 'Deep_Hub', 'aureliengeron', 'ALI_Alhumaid', 'weballergy', 'jortiz81', 'PyTorch', 'wk910930', 'NvidiaAI', 'vijayendra_t', 'DeepLearningHub', 'RatheeDevashish', 'fchollet', 'geoffroeder', 'Yuhu_ai_', 'Tkaraletsos', 'jeffclune', 'apsinghcdn', 'janexwang', 'djmlco', 'AndrewYNg', 'vinod1975']
+added_users = ['karpathy', 'hugo_larochelle', 'googleresearch', 'OpenAI']
+initial_60 = {'48008938', '2938392391', '14699604', '350970879', '393033324', '717915486508298240', '254107028', '533666866', '171216300', '859126861842063361', '892033449758011392', '138959166', '22870748', '4820804277', '1540897980', '323609820', '3918111614', '269815311', '775449094739197953', '951779806026354688', '4783690002', '236796085', '911297187664949248', '247769583', '2573466488', '951617135603679232', '167346791', '912633344', '138840988', '84080312', '865622395', '847671', '197684961', '903648466836054017', '11518572', '486928836', '55178805', '278889979', '41446149', '139538412', '776585502606721024', '3814411400', '740238495952736256', '519345129', '2895770934', '702308435371675648', '68746721', '146189583', '881959726958862337', '2233489694', '162293874', '358020584', '22385548', '952001007147520000', '216939636', '90590619', '33836629', '3333052551', '33838201', '4398626122'}
+
+# Photography (56 + 4) (TOP1/3_thres >= 8) (TOP10_thres >= 20) (TOP5_thres >= 24) (TOP3_thres >= 26)(1M) (celebrity > 5e6)
+users = ['500px', 'WFoxPhotographs', 'Smathur910', 'Lightroom', 'mariahmillie', 'NatGeoPhotos', 'RGurdPhoto', 'DigitalCameraW', 'Say_Street', 'jwardu', 'CarielloLorenzo', 'Brandonwoelfel', 'SweetLou89', 'petapixel', 'nicholaspriest', 'emmalbowkett', 'PeterAdamsPhoto', 'iso1200magazine', 'trovatten', 'GettyReportage', '_emilyallen__', 'prophotomag', 'moamin155', 'BHPhotoVideo', 'ewimages', 'fstoppers', 'gearolsen', 'elmakias', 'HollysterPhotos', 'simplctyy', 'MarineClpn', 'DanielCasson1', 'briannamai', 'PhotoBrigade', 'rupephoto', 'GettyImages', 'JPNichollsPhoto', 'fshields', 'pixltw', 'photog44k', 'outdooreyescard', 'PhotographyGang', 'VectoryFloor', 'Waynedodd9', 'TL_Roberts', 'robdesphoto', 'RDykstraPhoto', 'JHPh0t0graphy', 'fa_tman', 'PicBallot', 'kentishphotos', 'digitalps', 'HanzelxHunter', 'photography', 'memeanshi', 'strobist']
+added_users = ['nytimesphoto', 'MagnumPhotos', 'pdnonline', 'lensculture']
+initial_60 = {'20431922', '3704442256', '941158676420739072', '47797211', '333805692', '117662694', '952901164416290816', '21850078', '920610521459712000', '787124130948710400', '970308314', '36836023', '473312742', '37971731', '19208551', '458597583', '237483035', '210489589', '19162549', '41814686', '604849323', '23947219', '941826154759061504', '10422602', '1567667966', '29452677', '1450050433', '20785288', '101154711', '3244806647', '300919974', '732636480', '2873738298', '110230887', '231425452', '40297195', '955551308727177216', '41328650', '274746287', '1480316444', '75786254', '939655931968806912', '570954372', '903224812843171840', '714670851396907009', '156864049', '937058501586595840', '1274445318', '327842836', '770326643059613696', '2341897753', '15275022', '955446979579953152', '351001143', '955275979357745152', '14305530', '22411875', '20802277', '16065736', '23179472'}
+
+
+# Haskell (35 + 8) (TOP1/3 >= 24) (TOP10_thres >= 27) (TOP5_thres >= 30) (TOP3_thres >= 31) (5-10K)
+users = ['HaskellOrg', 'alan_zimm', 'catamorphic', 'haskellweekly', '1HaskellADay', 'GabrielG439', 'sridca', 'smdiehl', 'CarlosMChica', 'joyofhaskell', 'NickSeagull', 'HaskellTips', 'tylerweir', 'HaskellLibHunt', 'dungvn3000', 'haskellbook', 'NomicFlux', 'ndm_haskell', 'argumatronic', '_romac', 'DanielPous', 'mobilehaskell', 'codetalkio', 'saurabhnanda', 'bjarke_vad', 'eric_mccorkle', 'tonyday567', 'taylorfausak', 'zerokarmaleft', 'mattoflambda', 'gleber', 'chris__martin', 'serokell', 'bflyblue', 'kal_adjei']
+added_users = ['snoyberg', 'kmett', 'simonmar', 'FPComplete', 'acid2', 'kosmikus', 'donsbot', 'BartoszMilewski']
+
+# Photography Landscape (?)
+
+# Arctic (39)
+users = ['EUPolarNet', 'ArcticCouncil', 'ICEARCEU', 'AMAP_Arctic', 'OceanSeaIceNPI', 'Arctic_Centre', 'CAFFSecretariat', 'arcticfrontiers', 'EuPolarBoard', 'ArcticYearbook', 'eyeonthearctic', 'NorskPolar', 'NSIDC_ArcticIce', 'ArcticAssembly', 'Polar_Research', 'TheGordonFdn', 'PAMESecretariat', 'The_North_Theme', 'Arctic_Change', 'ArcticSC', 'DartArctic', 'SEARCHSeaIce', 'ArcticSynthesis', 'arcticissues', 'FulbrightArctic', 'RVirginiaPolar', 'arcticseaice', 'UKPolarNetwork', 'ArcticInstitute', 'ArcticScienceJ', 'ArcticNet', 'Arctic_Office', 'uarctic', 'dave_babb', 'lenaertsjan', 'lavergnetho', 'arcticfutures', 'UNISvalbard', 'alaskarobin']
+
+# Game Of Thrones (30)
+users = ['SophieT', 'GameOfThrones', 'gameofupdates', 'gamofphoto', 'WatchersOTWall', 'IAMLenaHeadey', 'Daenerys', 'GRRMspeaking', 'Maisie_Williams', 'Thrones_Memes', 'GoT_Cast', 'LordSnow', 'JeromeFlynn', 'KristianNairn', 'lovegwendoline', 'missnemmanuel', 'Daniel_Portman', 'SophieTurnerCom', 'kitharingtoncom', 'FinnJones', 'nikolajcw', 'liamcunningham1', 'joedempsie', 'WhelanGemma', 'gifsclarke', 'GoT_Tyrion', '_richardmadden', 'GameOfPolls', 'Isaac_H_Wright', 'caricevhouten']
+
+# UPC (36)
+users = ['la_UPC', 'UPCLlobregat', 'EnricFossas', 'ccdUPC', 'EETAC_UPC', 'UPCAlumni', 'BESTUPC', 'ETSEIB_UPC', 'eseiaat_upc', 'UPCSostenible', 'CIT_UPC', 'sg_upc', 'inLabFIB', 'FORUMETSEIB', 'festibity', 'ILoveBits', 'BibliotecaFME', 'UPC_School', 'ESABUPC', 'AssembleaETSEIB', 'fem_ETSEIB', 'CampusEnergia', 'soccatmat', 'FME_UPC', 'universitatscat', 'BiblioEEBE', 'doctoratupc', 'DABL_EETAC', 'TelecomBCN', 'DonesPoliTech', 'Nexus24UPC', 'FIBAlumni', 'UPCecoRacing', 'SLT_UPC', 'DAT_upc', 'CD6_UPC']
+
+
+########################################################################################################################
+##############################################OLD ARNAU COMMUNITIES#####################################################
+########################################################################################################################
+
+# Arctic
+core_users = ['NSIDC_ArcticIce', 'PolarPortal', 'ZLabe', 'climate_ice']
+non_core_users = ['alekpetty', 'jscarto', 'Climatologist49', 'Permafrostee']
+
+core_users = [16229491, 1399429982, 344395626, 16744473]
+
+# ERC
+core_users = ['martarovira', 'gabrielrufian', 'Esquerra_ERC', 'vicepresicat', 'junqueras', 'JoanTarda']
+non_core_users = ['ERC_elvendrell', 'cristian_agudo', 'uripir', 'DUMICO_10', 'JosepBargallo', 'alfonsjm']
+
+core_users = [14336062, 2904896141, 84053338, 710827859124871168, 31416615, 363696047]
+non_core_users = [490502486, 297981351, 39856676, 919823503502794752, 236144615, 936218388485074944, 592035721, 784608780898168832, 938378704010477568, 938603036167073795, 934892831960903682, 914378534726127617, 2267409746, 910897290688286721, 2796434394, 2733170825, 201887211, 771716492, 325432007, 138406031, 933667336741113856, 337186065, 915169085457096705, 928027672449634305, 4829177314, 846372400233168897, 1577339744, 4012015533, 89684979, 930776423576555521, 450964701, 3058695760, 4195840943, 114496905, 934029297890811904, 608491288, 909381542878892032, 923857686663389184, 938060458677981185, 162814473, 938698168790913024, 935186429411495938, 886680683657252865, 937316704018948104, 2349763993, 154838835, 937447240150417410, 483247487, 378030390, 607477318, 1415013386, 416903089, 861123169, 937823034081193984, 155614277, 259731256, 937739225159651333, 2326091286, 933977111936819202, 2769695395, 934534456920166402, 528613110, 934903237785858048, 938324750291603457, 451423199, 937818609392541697, 4420003156, 705369490100494336, 935607916886970368, 3097816913, 912357425453391874, 2436087960, 933485947827769345, 410171376, 287808248, 2876905582, 923959548867686401, 897761932517793792, 245702937, 405891697, 924009421725995009, 700568280, 938151954550874114, 938149306263011328, 302252416, 936652545778442243, 382058128, 2524784408, 2790329928, 938816910053052416, 3291858154, 245728328, 937088431984869376, 938807480997568513, 4745968881, 938869419270434816, 938361276434190336, 4626095953, 938133863133532162, 3081748970]
